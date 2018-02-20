@@ -1,0 +1,14 @@
+{
+	"name": "phone_pattern",
+	"rule": {
+		"operator": "REGEX_MATCH",
+		"operands": [
+			{
+				"value": "[0-9]{3}-[0-9]{3}-[0-9]{4}"
+			},
+			{
+				"field": "phone"
+			}
+		]
+	}
+}

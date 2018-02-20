@@ -1,0 +1,19 @@
+{
+	"name": "username_length",
+	"rule": {
+		"operator": "GREATER_THAN",
+		"operands": [
+			{
+				"operator": "LENGTH",
+				"operands": [
+					{
+						"field": "username"
+					}
+				]
+			},
+			{
+				"value": "4"
+			}
+		]
+	}
+}

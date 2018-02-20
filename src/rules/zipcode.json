@@ -1,0 +1,14 @@
+{
+	"name": "zip_code_pattern",
+	"rule": {
+		"operator": "REGEX_MATCH",
+		"operands": [
+			{
+				"value": "[0-9]{5}"
+			},
+			{
+				"field": "address.zip_code"
+			}
+		]
+	}
+}

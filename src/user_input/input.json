@@ -1,0 +1,15 @@
+{
+	"username": "bwillis",
+	"password": "0",
+	"first_name": "Bruce",
+	"last_name": "Willis",
+	"date_of_birth": "03/19/1955",
+	"email": "bruce@willis.com",
+	"phone": "424-288-20001",
+	"address": {
+		"street": "2000 Avenue Of The Stars",
+		"city": "Los Angeles",
+		"state": "CA",
+		"zip_code": "90067"
+	}
+}
